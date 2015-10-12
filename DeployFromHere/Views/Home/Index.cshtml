@@ -1,0 +1,31 @@
+﻿@model ScaleDotNet.Models.EnvironmentModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Diego .Net Test Application</h1>
+    <p class="lead">A minimum MVC app created in Visual Studio 2015</p>   
+    <p><a href="https://github.com/jjewett-pivotal/scale-dotnet.git" class="btn btn-primary btn-lg">Source code &raquo;</a></p>
+</div>
+<div>
+     @Html.ActionLink("Query Service Bindings", "QueryForm")
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Application instance Id</h2>
+        <p>@Model.ApplicationId</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Environment</h2>
+        @Html.ActionLink("Show all", "Index", "Home", new { all = "true" }, null)
+        <table>
+            @foreach (var env in Model.Variables)
+            {
+                <tr><td>@(env.Key)</td><td>@(env.Value)</td></tr>
+            }
+        </table>
+    </div>
+</div>

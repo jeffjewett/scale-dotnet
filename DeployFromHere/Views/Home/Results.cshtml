@@ -1,0 +1,24 @@
+﻿@model ScaleDotNet.Models.QueryModel
+@{
+    ViewBag.Title = "Query Results Page";
+}
+
+<div class="jumbotron">
+    <h1>PCF Embedded Service Binding Credentials</h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <p>@Model.Query</p>
+     </div>
+    <div class="col-md-4">
+        <table>
+            @foreach (var entry in Model.Results)
+            {
+                <tr><td>@(entry)</td></tr>
+            }
+        </table>
+    </div>
+</div>
+
+ 
+

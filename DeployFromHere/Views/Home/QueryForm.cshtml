@@ -1,0 +1,20 @@
+﻿@model ScaleDotNet.Models.QueryModel
+@{
+    ViewBag.Title = "Query Page";
+}
+<div class="jumbotron">
+    <h1>PCF Embedded Service Binding Credentials Query</h1>
+    <p class="lead">Enter 'type' 'name' 'parameter'</p>
+    <p class="lead">Example: p-redis pcf-redis host</p>
+    <p class="lead">Example: p-redis pcf-redis</p>
+    <p class="lead">Example: user-provided pcf-sql-connection</p>
+</div>
+<div>
+    @using (Html.BeginForm())
+    {
+        <p> Enter Service Binding Query: </p>
+        @Html.TextBoxFor(x => x.Query)
+        <input type="submit", value="Submit Query" />
+    }
+</div>
+
