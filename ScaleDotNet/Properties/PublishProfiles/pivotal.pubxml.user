@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/08/2015 19:02:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/08/2015 19:35:50</publishTime>
+      <publishTime>10/11/2015 21:43:28</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/08/2015 19:35:50</publishTime>
+      <publishTime>10/11/2015 21:43:27</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>10/08/2015 19:02:01</publishTime>
@@ -25,7 +25,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/08/2015 19:02:00</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>10/08/2015 19:02:01</publishTime>
+      <publishTime>10/09/2015 11:43:47</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>10/08/2015 19:02:01</publishTime>
@@ -64,7 +64,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/08/2015 19:02:01</publishTime>
     </File>
     <File Include="bin/ScaleDotNet.dll">
-      <publishTime>10/08/2015 19:35:40</publishTime>
+      <publishTime>10/11/2015 21:43:18</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>10/08/2015 19:02:00</publishTime>
@@ -115,10 +115,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/08/2015 19:01:58</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/08/2015 19:02:02</publishTime>
+      <publishTime>10/09/2015 11:43:47</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/08/2015 19:35:48</publishTime>
+      <publishTime>10/11/2015 21:43:26</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>10/08/2015 19:01:58</publishTime>
@@ -166,7 +166,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/08/2015 19:01:56</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/08/2015 19:28:34</publishTime>
+      <publishTime>10/11/2015 13:10:39</publishTime>
+    </File>
+    <File Include="Views/Home/QueryForm.cshtml">
+      <publishTime>10/11/2015 13:35:31</publishTime>
+    </File>
+    <File Include="Views/Home/Results.cshtml">
+      <publishTime>10/11/2015 13:08:39</publishTime>
+    </File>
+    <File Include="Views/Home/Students.cshtml">
+      <publishTime>10/10/2015 18:57:18</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>10/08/2015 19:01:56</publishTime>
@@ -181,7 +190,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/08/2015 19:01:56</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/08/2015 19:35:48</publishTime>
+      <publishTime>10/11/2015 21:43:25</publishTime>
     </File>
   </ItemGroup>
 </Project>

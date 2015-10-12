@@ -10,5 +10,6 @@ namespace ScaleDotNet.Models
         public Guid ApplicationId { get; set; }
 
         public IEnumerable<KeyValuePair<string, string>> Variables { get; set; }
+        public List<string> Students { get; set; }
     }
 }
